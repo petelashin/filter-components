@@ -1,6 +1,6 @@
 {
-    "name": "petelashin/spatie-filter-components",
-    "description": "boka basic",
+    "name": "petelashin/filter-components",
+    "description": "Laravel Package to extend Spatie Query Builder filtering",
     "license": "licence",
     "authors": [
         {
