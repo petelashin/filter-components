@@ -39,7 +39,6 @@ as example for field created_at:
 
 This package is open-sourced software licensed under the MIT license.
 
-## Author
+## Contact info
 
-Pete Lashin.
 Please contact me through petelashin@gmail.com if you have any questions or suggestions. 

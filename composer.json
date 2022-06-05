@@ -1,17 +1,18 @@
 {
     "name": "petelashin/filter-components",
     "description": "Laravel Package to extend Spatie Query Builder filtering",
-    "license": "licence",
+    "type": "package",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Pete Lashin",
-            "email": "petelashin@gmail.com",
-            "homepage": "boka"
+            "name": "Petro Lashyn",
+            "email": "petelashin@gmail.com"
         }
     ],
     "homepage": "https://github.com/petelashin/spatie-filter-components",
     "keywords": ["Laravel", "Spatie", "Filters"],
     "require": {
+        "php": ">=7.4.0",
         "spatie/laravel-query-builder": "^3.0",
         "laravel/framework": "^8.65"
     },
@@ -26,7 +27,7 @@
                 "PL\\FilterComponents\\ServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
-
-
