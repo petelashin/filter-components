@@ -1,0 +1,32 @@
+{
+    "name": "petelashin/spatie-filter-components",
+    "description": "boka basic",
+    "license": "licence",
+    "authors": [
+        {
+            "name": "Pete Lashin",
+            "email": "petelashin@gmail.com",
+            "homepage": "boka"
+        }
+    ],
+    "homepage": "https://github.com/petelashin/spatie-filter-components",
+    "keywords": ["Laravel", "Spatie", "Filters"],
+    "require": {
+        "spatie/laravel-query-builder": "^3.0",
+        "laravel/framework": "^8.65"
+    },
+    "autoload": {
+        "psr-4": {
+            "PL\\FilterComponents\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PL\\FilterComponents\\ServiceProvider"
+            ]
+        }
+    }
+}
+
+
