@@ -17,6 +17,7 @@ class FilterSelectField extends Component
     {
         $request = app()->get(Request::class);
         $this->currentUrl = $request->url();
+        
         $this->currentSearchQuery = $request->get('filter')[$field] ?? null;
         $this->name = $name;
         $this->field = $field;
